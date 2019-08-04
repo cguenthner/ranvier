@@ -2702,10 +2702,10 @@
   [optimizer prev-optimizer-result options iterations]
   (if (= iterations 0)
     prev-optimizer-result
-    (optimize-recursive optimizer
-                        (optimizer prev-optimizer-result options)
-                        options
-                        (dec iterations))))
+    (recur optimizer
+           (optimizer prev-optimizer-result options)
+           options
+           (dec iterations))))
 
 (defn optimize
   "Applies `optimizer` to the remaining arguments iteratively for a number of iterations determined by

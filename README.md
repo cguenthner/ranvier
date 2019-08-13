@@ -11,7 +11,7 @@ Add Ranvier to your dependencies. If using leiningen, add the following to your 
 `project.clj`:
 
 ```
-[ranvier "0.1.0"]
+[ranvier "0.1.1"]
 ```
 
 and require the `core` namespace:

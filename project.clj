@@ -1,4 +1,4 @@
-(defproject ranvier "0.1.0"
+(defproject ranvier "0.1.1"
   :description "Clojure numerical optimization and machine learning library"
   :url "https://github.com/cguenthner/ranvier"
   :license {:name "MIT License"
